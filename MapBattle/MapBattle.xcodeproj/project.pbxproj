@@ -14,6 +14,7 @@
 		B0D745A61DB251CB00644F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D745A41DB251CB00644F3E /* LaunchScreen.storyboard */; };
 		B0D745B11DB251CB00644F3E /* MapBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D745B01DB251CB00644F3E /* MapBattleTests.swift */; };
 		B0D745BC1DB251CB00644F3E /* MapBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D745BB1DB251CB00644F3E /* MapBattleUITests.swift */; };
+		B0D745D01DB25B1900644F3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D745CF1DB25B1900644F3E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0D745B71DB251CB00644F3E /* MapBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D745BB1DB251CB00644F3E /* MapBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBattleUITests.swift; sourceTree = "<group>"; };
 		B0D745BD1DB251CB00644F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D745CF1DB25B1900644F3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D745D01DB25B1900644F3E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				B0D745AF1DB251CB00644F3E /* MapBattleTests */,
 				B0D745BA1DB251CB00644F3E /* MapBattleUITests */,
 				B0D745991DB251CB00644F3E /* Products */,
+				B0D745CE1DB25B1900644F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				B0D745BD1DB251CB00644F3E /* Info.plist */,
 			);
 			path = MapBattleUITests;
+			sourceTree = "<group>";
+		};
+		B0D745CE1DB25B1900644F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D745CF1DB25B1900644F3E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +517,7 @@
 				B0D745C21DB251CB00644F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D745C31DB251CB00644F3E /* Build configuration list for PBXNativeTarget "MapBattleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				B0D745C51DB251CB00644F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D745C61DB251CB00644F3E /* Build configuration list for PBXNativeTarget "MapBattleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				B0D745C81DB251CB00644F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
