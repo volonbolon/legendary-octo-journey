@@ -14,6 +14,8 @@
 		B0D745A61DB251CB00644F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D745A41DB251CB00644F3E /* LaunchScreen.storyboard */; };
 		B0D745B11DB251CB00644F3E /* MapBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D745B01DB251CB00644F3E /* MapBattleTests.swift */; };
 		B0D745BC1DB251CB00644F3E /* MapBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D745BB1DB251CB00644F3E /* MapBattleUITests.swift */; };
+		B0D745CA1DB2525D00644F3E /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D745C91DB2525D00644F3E /* Mapbox.framework */; };
+		B0D745CB1DB2525D00644F3E /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0D745C91DB2525D00644F3E /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B0D745CC1DB2525D00644F3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0D745CB1DB2525D00644F3E /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B0D745981DB251CB00644F3E /* MapBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D7459B1DB251CB00644F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 		B0D745B71DB251CB00644F3E /* MapBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D745BB1DB251CB00644F3E /* MapBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBattleUITests.swift; sourceTree = "<group>"; };
 		B0D745BD1DB251CB00644F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D745C91DB2525D00644F3E /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D745CA1DB2525D00644F3E /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 		B0D7458F1DB251CB00644F3E = {
 			isa = PBXGroup;
 			children = (
+				B0D745C91DB2525D00644F3E /* Mapbox.framework */,
 				B0D7459A1DB251CB00644F3E /* MapBattle */,
 				B0D745AF1DB251CB00644F3E /* MapBattleTests */,
 				B0D745BA1DB251CB00644F3E /* MapBattleUITests */,
@@ -135,6 +154,8 @@
 				B0D745941DB251CB00644F3E /* Sources */,
 				B0D745951DB251CB00644F3E /* Frameworks */,
 				B0D745961DB251CB00644F3E /* Resources */,
+				B0D745CC1DB2525D00644F3E /* Embed Frameworks */,
+				B0D745CD1DB2527F00644F3E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +274,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0D745CD1DB2527F00644F3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0D745941DB251CB00644F3E /* Sources */ = {
@@ -412,6 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vb.MapBattle;
@@ -424,6 +465,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MapBattle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vb.MapBattle;
