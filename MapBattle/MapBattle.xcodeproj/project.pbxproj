@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABEBF3D6E9F71C49F49A1A10 /* Pods_MapBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05F37CCF21C71E08D3CC27C /* Pods_MapBattle.framework */; };
 		B0D7459C1DB251CB00644F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D7459B1DB251CB00644F3E /* AppDelegate.swift */; };
 		B0D7459E1DB251CB00644F3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D7459D1DB251CB00644F3E /* ViewController.swift */; };
 		B0D745A11DB251CB00644F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D7459F1DB251CB00644F3E /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		475E682C13FEEFCDB664037C /* Pods-MapBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBattle.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MapBattle/Pods-MapBattle.debug.xcconfig"; sourceTree = "<group>"; };
 		B0D745981DB251CB00644F3E /* MapBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D7459B1DB251CB00644F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0D7459D1DB251CB00644F3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +49,6 @@
 		B0D745BB1DB251CB00644F3E /* MapBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBattleUITests.swift; sourceTree = "<group>"; };
 		B0D745BD1DB251CB00644F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D745CF1DB25B1900644F3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E05F37CCF21C71E08D3CC27C /* Pods_MapBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F936025EFD287A9579965AF2 /* Pods-MapBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBattle.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MapBattle/Pods-MapBattle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D745D01DB25B1900644F3E /* MapKit.framework in Frameworks */,
-				ABEBF3D6E9F71C49F49A1A10 /* Pods_MapBattle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +85,6 @@
 				B0D745BA1DB251CB00644F3E /* MapBattleUITests */,
 				B0D745991DB251CB00644F3E /* Products */,
 				B0D745CE1DB25B1900644F3E /* Frameworks */,
-				C2AC204FF9CE10AB3A10CFB0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,18 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				B0D745CF1DB25B1900644F3E /* MapKit.framework */,
-				E05F37CCF21C71E08D3CC27C /* Pods_MapBattle.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C2AC204FF9CE10AB3A10CFB0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				475E682C13FEEFCDB664037C /* Pods-MapBattle.debug.xcconfig */,
-				F936025EFD287A9579965AF2 /* Pods-MapBattle.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +144,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D745C01DB251CB00644F3E /* Build configuration list for PBXNativeTarget "MapBattle" */;
 			buildPhases = (
-				5B744CADC0C01D7CDE1485FD /* [CP] Check Pods Manifest.lock */,
 				B0D745941DB251CB00644F3E /* Sources */,
 				B0D745951DB251CB00644F3E /* Frameworks */,
 				B0D745961DB251CB00644F3E /* Resources */,
-				B89296941F77D6E03339A94A /* [CP] Embed Pods Frameworks */,
-				6498FDFA3D45D16A1F1CA53B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,54 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5B744CADC0C01D7CDE1485FD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6498FDFA3D45D16A1F1CA53B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MapBattle/Pods-MapBattle-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B89296941F77D6E03339A94A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MapBattle/Pods-MapBattle-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0D745941DB251CB00644F3E /* Sources */ = {
@@ -492,7 +425,6 @@
 		};
 		B0D745C11DB251CB00644F3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 475E682C13FEEFCDB664037C /* Pods-MapBattle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapBattle/Info.plist;
@@ -505,7 +437,6 @@
 		};
 		B0D745C21DB251CB00644F3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F936025EFD287A9579965AF2 /* Pods-MapBattle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapBattle/Info.plist;

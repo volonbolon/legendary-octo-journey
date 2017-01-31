@@ -1,6 +1,0 @@
-framework module Pods_MapBattle {
-  umbrella header "Pods-MapBattle-umbrella.h"
-
-  export *
-  module * { export * }
-}
