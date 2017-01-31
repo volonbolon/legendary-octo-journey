@@ -1,0 +1,21 @@
+PODS:
+  - FDTake (0.4.2)
+
+DEPENDENCIES:
+  - FDTake (from `https://github.com/sp0n-7/FDTake.git`)
+
+EXTERNAL SOURCES:
+  FDTake:
+    :git: https://github.com/sp0n-7/FDTake.git
+
+CHECKOUT OPTIONS:
+  FDTake:
+    :commit: ff929e6f9a374b3377860efe4f2b50e27192419f
+    :git: https://github.com/sp0n-7/FDTake.git
+
+SPEC CHECKSUMS:
+  FDTake: 9ebafa21fc21bb7b44cee5589dd8344586ed70f4
+
+PODFILE CHECKSUM: e0eef0404e08b89a18087bbfb857fdaffc670d96
+
+COCOAPODS: 1.0.1

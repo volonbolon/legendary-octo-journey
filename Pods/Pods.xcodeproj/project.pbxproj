@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF31AD00195C01143E13A37C2A82407 = {
+			isa = PBXBuildFile;
+			fileRef = 6EF183E8C5B25EC0C9100FCDB46421C3;
+		};
+		180F30A206C4F532D0C84CCBE038AC6A = {
+			isa = PBXBuildFile;
+			fileRef = 8F487BCBBC9BAE6592C66518ABA8B96F;
+		};
+		235C5C2D5322D751E79041B71BD9B472 = {
+			isa = PBXBuildFile;
+			fileRef = 2F0D3A00FA0799F6DA1BC50B53BF3944;
+		};
+		29F7DDB66F7D50AABCF5FF1A1B27C183 = {
+			isa = PBXBuildFile;
+			fileRef = CBB3DE36805AF21409EC968A9691732F;
+		};
+		2EF4D8C2E950885527071E0391895238 = {
+			isa = PBXBuildFile;
+			fileRef = B3A26B4FF0C0CBE9CC98265C16CCA082;
+		};
+		46468B11B9C5F04A82C601CD7FCF5976 = {
+			isa = PBXBuildFile;
+			fileRef = 0916A0A6F37FC77EC65CBEFE988A977D;
+		};
+		4B2738F833241BF7A2157A41C0B2CE0D = {
+			isa = PBXBuildFile;
+			fileRef = 389DD2CFB034C591A98D3914632E76E8;
+		};
+		554DDBE6F101FB26B0037730A3768EC8 = {
+			isa = PBXBuildFile;
+			fileRef = 7F19A5BE4C599B4E19009F91B57291F4;
+		};
+		58D6E6000FFEC73395CD1C8FB9132406 = {
+			isa = PBXBuildFile;
+			fileRef = B42FA3B8417D41AA110C79D5BBF2769A;
+		};
+		5EEEFEA6E1AF01EF577D38B5360A36ED = {
+			isa = PBXBuildFile;
+			fileRef = AB083DB3837E19D23AB2B9E6918518C4;
+		};
+		6239398E51B080F9B9694EBADC3B8777 = {
+			isa = PBXBuildFile;
+			fileRef = B8F4DA3B86BE55ECA22B239B37E35E4D;
+		};
+		6AC12A818B17A26E8D844F070C6155F5 = {
+			isa = PBXBuildFile;
+			fileRef = 58848D5287C4C2F469EA8F670832B46E;
+		};
+		6AF0D4FAED6D865ACBB85A70ACA7BB13 = {
+			isa = PBXBuildFile;
+			fileRef = 3E5E25C1674922530F88372268CC8D25;
+		};
+		893C32047CF0E724076D5724C22FA8D5 = {
+			isa = PBXBuildFile;
+			fileRef = D621A17CDB69A51FF237419CE1FD69E7;
+		};
+		963F8862ADD0326A5DBEEE1BF37FFDFE = {
+			isa = PBXBuildFile;
+			fileRef = 7FDE0E3D95DECBCE124D9F205880FE29;
+		};
+		9CC73987A4E46AAF3C07E18EB076007D = {
+			isa = PBXBuildFile;
+			fileRef = 0EAEF8D049569B4B5E86722999B61180;
+		};
+		A1DDE740AC7D308439AED57BB6269B65 = {
+			isa = PBXBuildFile;
+			fileRef = B6C81B62C49AB0C5A89AC2366B08C8F6;
+		};
+		C138EF13CCCD065C1BA3F3537C8C2780 = {
+			isa = PBXBuildFile;
+			fileRef = A09555A4044714EDFDF8197D64BF558E;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		C7DFA179410EDEEDAE6B6481BC94A545 = {
+			isa = PBXBuildFile;
+			fileRef = 6598828A5014C5784607D2959D933341;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		CD0C24FCB88395E1C93313DA2CFBE09D = {
+			isa = PBXBuildFile;
+			fileRef = B3D2E9C313A011E95B447405E1803ABA;
+		};
+		CE32F662F60B5217A4E681729D9E4C96 = {
+			isa = PBXBuildFile;
+			fileRef = B261E496066BF4ADDAF7D5B707D95540;
+		};
+		D171DB6382DAEBEE887F7956ED1D9F78 = {
+			isa = PBXBuildFile;
+			fileRef = CBB3DE36805AF21409EC968A9691732F;
+		};
+		D5AB45E687D2CD5C7BD07733234C7244 = {
+			isa = PBXBuildFile;
+			fileRef = F456CC22EF07CA660FAA18F8DBC0C0F4;
+		};
+		EDF4C1A76F88386EA3FE5EABD6E225A3 = {
+			isa = PBXBuildFile;
+			fileRef = 185B764B7C48F2FEB42893CD817E14CE;
+		};
+		F28DCC9BBDDBC93C111C022F1E8B1FF8 = {
+			isa = PBXBuildFile;
+			fileRef = F3BF6A6D4383638AFF16B241A9C95F6A;
+		};
+		F3F881CF7E6B72999E5A1C44CC81E22B = {
+			isa = PBXBuildFile;
+			fileRef = 3C669EF22B2C1FA6DF6D007C7CD1B896;
+		};
+		F7241DEDB3A9F992AC0E884273E20A1C = {
+			isa = PBXBuildFile;
+			fileRef = B706B835F3AFA0416ECAF55D0F15058B;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		F7FF39AB04F3C5ECB7A489A22DFA50F3 = {
+			isa = PBXBuildFile;
+			fileRef = 27141FFFFD3F0B178D577CD07FC083C1;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84ED5C7FA2ECDD68A56F8389BA9C85A4 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 7813782957194A063114A6C66A1B4F0A;
+			remoteInfo = FDTake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DB779E49416C44CD30F3D8D2AB87EE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-MapBattle.modulemap";
+			sourceTree = "<group>";
+		};
+		066344FC9274B45A6A0815041684F013 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-MapBattle-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		0916A0A6F37FC77EC65CBEFE988A977D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = ru.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0EAEF8D049569B4B5E86722999B61180 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = fr.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		10D3DCE4BCE043C086CE0D11FAE25C07 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "FDTake-prefix.pch";
+			sourceTree = "<group>";
+		};
+		185B764B7C48F2FEB42893CD817E14CE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = el.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1D1A27B482FC0B147E939390D11BDA06 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MapBattle.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		27141FFFFD3F0B178D577CD07FC083C1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = nb.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2F0D3A00FA0799F6DA1BC50B53BF3944 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = sv.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		389DD2CFB034C591A98D3914632E76E8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = he.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3C669EF22B2C1FA6DF6D007C7CD1B896 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			name = Info.plist;
+			path = Source/Info.plist;
+			sourceTree = "<group>";
+		};
+		3E5E25C1674922530F88372268CC8D25 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = ar.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		58848D5287C4C2F469EA8F670832B46E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = de.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5A5A2837B007CA39313E92214CF781A5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		61A2EE633C095CA09C7FC5F41CBBF156 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = FDTake.modulemap;
+			sourceTree = "<group>";
+		};
+		6598828A5014C5784607D2959D933341 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FDTake.h;
+			path = Source/FDTake.h;
+			sourceTree = "<group>";
+		};
+		665BD0C6385866329FF86AB2EBF183F7 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = FDTake.framework;
+			path = FDTake.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EF183E8C5B25EC0C9100FCDB46421C3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = tr.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7A1E4FB4A4410D5E387179B4BCE65AF6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		7F19A5BE4C599B4E19009F91B57291F4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = en.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7FDE0E3D95DECBCE124D9F205880FE29 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = nl.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8672776F53C552551551FD64612D18ED = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_MapBattle.framework;
+			path = "Pods-MapBattle.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F487BCBBC9BAE6592C66518ABA8B96F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = da.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 = {
+			isa = PBXFileReference;
+			explicitFileType = text.script.ruby;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			name = Podfile;
+			path = ../Podfile;
+			sourceTree = SOURCE_ROOT;
+			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
+		};
+		A09555A4044714EDFDF8197D64BF558E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "FDTake-umbrella.h";
+			sourceTree = "<group>";
+		};
+		AB083DB3837E19D23AB2B9E6918518C4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-MapBattle-dummy.m";
+			sourceTree = "<group>";
+		};
+		B261E496066BF4ADDAF7D5B707D95540 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "FDTake-dummy.m";
+			sourceTree = "<group>";
+		};
+		B36B1287341953EF118BCE7C5A15C2D8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = FDTake.xcconfig;
+			sourceTree = "<group>";
+		};
+		B3A26B4FF0C0CBE9CC98265C16CCA082 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = es.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B3D2E9C313A011E95B447405E1803ABA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = "zh-Hans.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		B3FD800B0BEBEDF06C91FF64A80CBA3A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-MapBattle-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		B42FA3B8417D41AA110C79D5BBF2769A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = "pt-PT.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		B6C81B62C49AB0C5A89AC2366B08C8F6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = it.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B706B835F3AFA0416ECAF55D0F15058B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-MapBattle-umbrella.h";
+			sourceTree = "<group>";
+		};
+		B8F4DA3B86BE55ECA22B239B37E35E4D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = FDTakeController.swift;
+			path = Source/FDTakeController.swift;
+			sourceTree = "<group>";
+		};
+		C659A360387CDEBA3B8427AE71FD28ED = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-MapBattle-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		C8BBC7664818A5EB3ADC52ACE39D47A3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-MapBattle-resources.sh";
+			sourceTree = "<group>";
+		};
+		CBB3DE36805AF21409EC968A9691732F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D621A17CDB69A51FF237419CE1FD69E7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = pl.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F0319CB81E39ED442ED74CAFB4D72C0D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MapBattle.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		F3BF6A6D4383638AFF16B241A9C95F6A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = "zh-Hant.lproj/Localizable.strings";
+			sourceTree = "<group>";
+		};
+		F456CC22EF07CA660FAA18F8DBC0C0F4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = Localizable.strings;
+			path = hu.lproj/Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1890D502903C0B81DA6585260CDAAE = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171DB6382DAEBEE887F7956ED1D9F78,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964AF94024099A4E133A91E75A7C7CF0 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F7DDB66F7D50AABCF5FF1A1B27C183,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		407558BDF82928061D3178FEE62BC0C7 = {
+			isa = PBXGroup;
+			children = (
+				6598828A5014C5784607D2959D933341,
+				B8F4DA3B86BE55ECA22B239B37E35E4D,
+				3C669EF22B2C1FA6DF6D007C7CD1B896,
+				9A813E26CA1B55FC138C2D64AE0F59B1,
+				9486E62E4C25F4DA9C17FB6A27CBE4C0,
+			);
+			name = FDTake;
+			path = FDTake;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC,
+				C024174FDA42E02D9ABF29C6E154CC37,
+				E41E9B23A5045584083FEC94667851AD,
+				BBF55D4490BF65DB6F9414C253FDA948,
+			);
+			sourceTree = "<group>";
+		};
+		9486E62E4C25F4DA9C17FB6A27CBE4C0 = {
+			isa = PBXGroup;
+			children = (
+				61A2EE633C095CA09C7FC5F41CBBF156,
+				B36B1287341953EF118BCE7C5A15C2D8,
+				B261E496066BF4ADDAF7D5B707D95540,
+				10D3DCE4BCE043C086CE0D11FAE25C07,
+				A09555A4044714EDFDF8197D64BF558E,
+				7A1E4FB4A4410D5E387179B4BCE65AF6,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDTake";
+			sourceTree = "<group>";
+		};
+		BBF55D4490BF65DB6F9414C253FDA948 = {
+			isa = PBXGroup;
+			children = (
+				DEB59DA79EF4C12E90A1C2719399BEB9,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C024174FDA42E02D9ABF29C6E154CC37 = {
+			isa = PBXGroup;
+			children = (
+				407558BDF82928061D3178FEE62BC0C7,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEB59DA79EF4C12E90A1C2719399BEB9 = {
+			isa = PBXGroup;
+			children = (
+				5A5A2837B007CA39313E92214CF781A5,
+				02DB779E49416C44CD30F3D8D2AB87EE,
+				B3FD800B0BEBEDF06C91FF64A80CBA3A,
+				C659A360387CDEBA3B8427AE71FD28ED,
+				AB083DB3837E19D23AB2B9E6918518C4,
+				066344FC9274B45A6A0815041684F013,
+				C8BBC7664818A5EB3ADC52ACE39D47A3,
+				B706B835F3AFA0416ECAF55D0F15058B,
+				1D1A27B482FC0B147E939390D11BDA06,
+				F0319CB81E39ED442ED74CAFB4D72C0D,
+			);
+			name = "Pods-MapBattle";
+			path = "Target Support Files/Pods-MapBattle";
+			sourceTree = "<group>";
+		};
+		E41E9B23A5045584083FEC94667851AD = {
+			isa = PBXGroup;
+			children = (
+				665BD0C6385866329FF86AB2EBF183F7,
+				8672776F53C552551551FD64612D18ED,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56BEA877B1FAF1E978BA0AD1EE1B8F9D = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7241DEDB3A9F992AC0E884273E20A1C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF7A0E6FA2098D586DBFC07B0F0E44E = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C138EF13CCCD065C1BA3F3537C8C2780,
+				C7DFA179410EDEEDAE6B6481BC94A545,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59BD9F198F51C7EBB454A05A1A73F3A6 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1635159D3C7DE4B4E0F9D299D2CF0D;
+			buildPhases = (
+				DAA76E0AF226AE2E1721CE458A0A481D,
+				964AF94024099A4E133A91E75A7C7CF0,
+				56BEA877B1FAF1E978BA0AD1EE1B8F9D,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA0F53072B3FE0A7FACEE9953DBEF0B,
+			);
+			name = "Pods-MapBattle";
+			productName = "Pods-MapBattle";
+			productReference = 8672776F53C552551551FD64612D18ED;
+			productType = "com.apple.product-type.framework";
+		};
+		7813782957194A063114A6C66A1B4F0A = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF3BFC783567852BDCA2D126D3ED023;
+			buildPhases = (
+				9D5673486FCCF42CB22165B7660CDBB3,
+				4D1890D502903C0B81DA6585260CDAAE,
+				BBF7A0E6FA2098D586DBFC07B0F0E44E,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDTake;
+			productName = FDTake;
+			productReference = 665BD0C6385866329FF86AB2EBF183F7;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E41E9B23A5045584083FEC94667851AD;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				7813782957194A063114A6C66A1B4F0A,
+				59BD9F198F51C7EBB454A05A1A73F3A6,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5673486FCCF42CB22165B7660CDBB3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32F662F60B5217A4E681729D9E4C96,
+				6239398E51B080F9B9694EBADC3B8777,
+				F3F881CF7E6B72999E5A1C44CC81E22B,
+				F7FF39AB04F3C5ECB7A489A22DFA50F3,
+				EDF4C1A76F88386EA3FE5EABD6E225A3,
+				554DDBE6F101FB26B0037730A3768EC8,
+				2EF4D8C2E950885527071E0391895238,
+				9CC73987A4E46AAF3C07E18EB076007D,
+				4B2738F833241BF7A2157A41C0B2CE0D,
+				D5AB45E687D2CD5C7BD07733234C7244,
+				180F30A206C4F532D0C84CCBE038AC6A,
+				6AF0D4FAED6D865ACBB85A70ACA7BB13,
+				6AC12A818B17A26E8D844F070C6155F5,
+				963F8862ADD0326A5DBEEE1BF37FFDFE,
+				893C32047CF0E724076D5724C22FA8D5,
+				58D6E6000FFEC73395CD1C8FB9132406,
+				46468B11B9C5F04A82C601CD7FCF5976,
+				235C5C2D5322D751E79041B71BD9B472,
+				0DF31AD00195C01143E13A37C2A82407,
+				CD0C24FCB88395E1C93313DA2CFBE09D,
+				F28DCC9BBDDBC93C111C022F1E8B1FF8,
+				A1DDE740AC7D308439AED57BB6269B65,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA76E0AF226AE2E1721CE458A0A481D = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEEFEA6E1AF01EF577D38B5360A36ED,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA0F53072B3FE0A7FACEE9953DBEF0B = {
+			isa = PBXTargetDependency;
+			name = FDTake;
+			target = 7813782957194A063114A6C66A1B4F0A;
+			targetProxy = 84ED5C7FA2ECDD68A56F8389BA9C85A4;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A813E26CA1B55FC138C2D64AE0F59B1 = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5E25C1674922530F88372268CC8D25,
+				8F487BCBBC9BAE6592C66518ABA8B96F,
+				58848D5287C4C2F469EA8F670832B46E,
+				185B764B7C48F2FEB42893CD817E14CE,
+				7F19A5BE4C599B4E19009F91B57291F4,
+				B3A26B4FF0C0CBE9CC98265C16CCA082,
+				0EAEF8D049569B4B5E86722999B61180,
+				389DD2CFB034C591A98D3914632E76E8,
+				F456CC22EF07CA660FAA18F8DBC0C0F4,
+				B6C81B62C49AB0C5A89AC2366B08C8F6,
+				27141FFFFD3F0B178D577CD07FC083C1,
+				7FDE0E3D95DECBCE124D9F205880FE29,
+				D621A17CDB69A51FF237419CE1FD69E7,
+				B42FA3B8417D41AA110C79D5BBF2769A,
+				0916A0A6F37FC77EC65CBEFE988A977D,
+				2F0D3A00FA0799F6DA1BC50B53BF3944,
+				6EF183E8C5B25EC0C9100FCDB46421C3,
+				B3D2E9C313A011E95B447405E1803ABA,
+				F3BF6A6D4383638AFF16B241A9C95F6A,
+			);
+			name = Localizable.strings;
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EB2B363B6FE1350029B3703F72D61D9 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36B1287341953EF118BCE7C5A15C2D8;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDTake/FDTake-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDTake/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FDTake/FDTake.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FDTake;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257B9D484CB17F7495FE0544C497CBE4 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36B1287341953EF118BCE7C5A15C2D8;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDTake/FDTake-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDTake/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FDTake/FDTake.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FDTake;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D4DD207C2365DE44F44445AA30E2EAE = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1A27B482FC0B147E939390D11BDA06;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapBattle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapBattle/Pods-MapBattle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapBattle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29B0DAE94332FC20BA39C127B72C5E0 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0319CB81E39ED442ED74CAFB4D72C0D;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MapBattle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapBattle/Pods-MapBattle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MapBattle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7,
+				B7324857C38B065FEB1EEE3105C2367A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF3BFC783567852BDCA2D126D3ED023 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB2B363B6FE1350029B3703F72D61D9,
+				257B9D484CB17F7495FE0544C497CBE4,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1635159D3C7DE4B4E0F9D299D2CF0D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4DD207C2365DE44F44445AA30E2EAE,
+				F29B0DAE94332FC20BA39C127B72C5E0,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E;
+}
