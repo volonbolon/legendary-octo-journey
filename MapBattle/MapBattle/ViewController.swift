@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreLocation
-import MapKit
+import GoogleMaps
 
 extension CLLocationCoordinate2D {
     fileprivate mutating func randomPointOnCircle(_ radius:Float, center:CGPoint) {
@@ -29,31 +29,24 @@ extension CLLocationCoordinate2D {
 }
 
 class ViewController: UIViewController {
-    @IBOutlet weak var mapView: MKMapView!
+    var mapView:GMSMapView!
     
-    func centerMap() {
-        let l = CLLocationCoordinate2D(latitude: 40.760789, longitude: -73.980441)
-        let region = MKCoordinateRegionMakeWithDistance(l, 16000, 16000)
-        self.mapView.setRegion(region, animated: true)
+    override func loadView() {
+        let camera = GMSCameraPosition.camera(withLatitude: 40.760789, longitude: -73.980441, zoom: 13.0)
+        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        self.mapView = mapView
+        view = mapView
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.centerMap()
         for i in 0..<10 {
-            let a = MKPointAnnotation()
-            a.coordinate = CLLocationCoordinate2D.randomLocationInNYC()
+            let a = GMSMarker()
+            a.position = CLLocationCoordinate2D.randomLocationInNYC()
             a.title = "Annotation \(i)"
-            self.mapView.addAnnotation(a)
+            a.map = self.mapView
         }
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
